@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="playMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="banner" prefHeight="150.0" prefWidth="800.0" style="-fx-background-image: url('/UI/panel_beige.png');" stylesheets="@StartStyle.css" />
+      <ImageView fitHeight="487.0" fitWidth="800.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/background.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="158.0" layoutX="-5.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="807.0" />
+      <ImageView fitHeight="27.0" fitWidth="417.0" layoutX="192.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/mapSelectTitle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

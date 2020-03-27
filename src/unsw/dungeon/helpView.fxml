@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="mainHelp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="menuBanner" prefHeight="150.0" prefWidth="800.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="150.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+            <ImageView fitHeight="33.0" fitWidth="436.0" layoutX="200.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/helpMenu.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane fx:id="helpMenu" layoutY="150.0" prefHeight="450.0" prefWidth="500.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="450.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+         </children></Pane>
+      <AnchorPane fx:id="descriptionPane" layoutX="500.0" layoutY="150.0" prefHeight="450.0" prefWidth="300.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="450.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
